@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zeeshan | DevOps Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h2 class="logo">Zeeshan</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h1>Cloud & DevOps Engineer</h1>
+        <p>Building scalable infrastructure & automation pipelines</p>
+        <button>Hire Me</button>
+    </div>
+</header>
+
+<section id="about" class="fade">
+    <h2>About Me</h2>
+    <p>
+        I am a Cloud and DevOps enthusiast skilled in AWS, Docker, CI/CD automation,
+        and backend development. Passionate about building secure and scalable systems.
+    </p>
+</section>
+
+<section id="skills" class="fade">
+    <h2>Technical Skills</h2>
+    <div class="skill-box">
+        <span>AWS</span>
+        <span>Docker</span>
+        <span>GitHub Actions</span>
+        <span>Python</span>
+        <span>Flask</span>
+        <span>Linux</span>
+        <span>MySQL</span>
+    </div>
+</section>
+
+<section id="projects" class="fade">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Docker Two-Tier Application</h3>
+        <p>Flask & MySQL containerized architecture.</p>
+    </div>
+
+    <div class="card">
+        <h3>CI/CD Pipeline</h3>
+        <p>Automated deployment using GitHub Actions.</p>
+    </div>
+
+    <div class="card">
+        <h3>AWS Static Website</h3>
+        <p>Hosted scalable static site using S3 & CDN.</p>
+    </div>
+
+</section>
+
+<section id="contact" class="fade">
+    <h2>Contact</h2>
+    <p>Email: contactshan143@gmail.com</p>
+    <p>Phone: 8533855864</p>
+</section>
+
+<footer>
+    <p>© 2026 Zeeshan | DevOps Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

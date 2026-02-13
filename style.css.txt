@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background: linear-gradient(120deg,#0f2027,#203a43,#2c5364);
+    color:white;
+}
+
+/* Navbar */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 50px;
+    background:rgba(0,0,0,0.3);
+    backdrop-filter:blur(10px);
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#00ffd5;
+}
+
+/* Hero */
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:50px;
+    animation:slide 1.5s ease;
+}
+
+.hero p{
+    margin-top:10px;
+    opacity:0.8;
+}
+
+.hero button{
+    margin-top:20px;
+    padding:12px 25px;
+    border:none;
+    background:#00ffd5;
+    color:black;
+    border-radius:25px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.hero button:hover{
+    transform:scale(1.1);
+}
+
+/* Sections */
+
+section{
+    padding:60px;
+    text-align:center;
+}
+
+.skill-box span{
+    display:inline-block;
+    margin:10px;
+    padding:10px 20px;
+    background:rgba(255,255,255,0.1);
+    border-radius:20px;
+    transition:0.3s;
+}
+
+.skill-box span:hover{
+    background:#00ffd5;
+    color:black;
+}
+
+/* Cards */
+
+.card{
+    background:rgba(255,255,255,0.1);
+    margin:20px auto;
+    padding:25px;
+    width:300px;
+    border-radius:15px;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:black;
+}
+
+/* Animation */
+
+.fade{
+    opacity:0;
+    transform:translateY(40px);
+    transition:1s;
+}
+
+.fade.active{
+    opacity:1;
+    transform:translateY(0);
+}
+
+@keyframes slide{
+    from{opacity:0; transform:translateY(-50px);}
+    to{opacity:1;}
+}
